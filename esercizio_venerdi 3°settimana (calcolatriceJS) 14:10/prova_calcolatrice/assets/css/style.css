@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding:0px;
+  }
+  #calc input {
+    width:40px;
+    height:40px;
+    margin:1px;
+    font-size:15px;
+    border:none;
+  }
+  #calc input:hover{
+    background-color:#ccc;
+  }
+  #calc input:active{
+    background-color:#aaa;
+  }
+  #calcolatrice{
+    background-color:#eee;
+    width:fit-content;
+    padding:10px 5px;
+    box-shadow:1px 1px 7px #999;
+    margin:10px;
+  }
+  .area {
+    width:166px;
+    height:30px;
+    padding:2px;
+    text-align:right;
+    font-size:20px
+  }

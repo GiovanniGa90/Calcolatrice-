@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calcolatrice</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <h1>Calcolatrice</h1>
+
+        <div id="calcolatrice">
+            <input type="text" id="inputCalcolo" /><br>
+            <input type="button" id="one" value="1" onclick="scrivi('1')" />
+            <input type="button" id="two" value="2" onclick="scrivi('2')" />
+            <input type="button" id="three" value="3" onclick="scrivi('3')" />
+            <input type="button" id="plus" value="+" onclick="scrivi('+')"><br>
+            <input type="button" id="four" value="4" onclick="scrivi('4')" />
+            <input type="button" id="five" value="5" onclick="scrivi('5')" />
+            <input type="button" id="six" value="6" onclick="scrivi('6')" />
+            <input type="button" id="less" value="-" onclick="scrivi('-')" /><br>
+            <input type="button" id="seven" value="7" onclick="scrivi('7')" />
+            <input type="button" id="eight" value="8" onclick="scrivi('8')" />
+            <input type="button" id="nine" value="9" onclick="scrivi('9')" />
+            <input type="button" id="for" value="*" onclick="scrivi('*')" /><br>
+            <input type="button" id="zero" value="0" onclick="scrivi('0')">
+            <input type="button" id="cancella" value="C" onclick="cancella()">
+            <input type="button" id="point" value="." onclick="scrivi('.')">
+            <input type="button" id="division" value="/" onclick="scrivi('/')" /><br>
+            <input type="button" id="calcola" value="=" onclick="calcola()" />
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+
+</html>

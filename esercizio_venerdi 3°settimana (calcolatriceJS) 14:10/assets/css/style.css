@@ -1,0 +1,36 @@
+body {
+    
+    text-align: center;
+}
+
+#calcolatrice {
+    border-radius: 5%;
+    border: 1px solid grey;
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+}
+
+
+#inputCalcolo, #calcola {
+
+    width: 75%;
+}
+
+
+#plus, #less, #for, #division, #cancella {
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+}
+
+#one,#two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #point {
+    background-color: rgb(132, 129, 129);
+    border-radius: 50%;
+    color: white;
+}
+#calcola {
+    border-radius: 20%;
+    background-color: orange;
+    color: white;
+}
